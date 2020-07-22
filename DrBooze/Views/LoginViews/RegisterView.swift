@@ -106,9 +106,3 @@ struct RegisterView_Previews: PreviewProvider {
         RegisterView()
     }
 }
-
-
-/*
- TODO:  FIX Spacing Top
-        Implement httpLogic etc
- */
