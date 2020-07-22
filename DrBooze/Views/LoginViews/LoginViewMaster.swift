@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LoginViewMaster.swift
 //  DrBooze
 //
 //  Created by Daniel Pfeffer on 19.06.20.
@@ -8,18 +8,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    
-    @State var isLogged = false
-    
+struct LoginViewMaster: View {
+
     var body: some View {
-                LoginViewMaster()
-        
+        NavigationView {
+            LoginView()
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LoginViewMaster_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LoginViewMaster()
     }
 }

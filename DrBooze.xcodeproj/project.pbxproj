@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D42B58A24C0CC9D0032AA43 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D42B58924C0CC9D0032AA43 /* DashboardController.swift */; };
+		2D42B58C24C0CE900032AA43 /* DashboardSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D42B58B24C0CE900032AA43 /* DashboardSelection.swift */; };
 		2D5ADBF5249C2FF00021D0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADBF4249C2FF00021D0CF /* AppDelegate.swift */; };
 		2D5ADBF7249C2FF00021D0CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADBF6249C2FF00021D0CF /* SceneDelegate.swift */; };
 		2D5ADBFA249C2FF00021D0CF /* DrBooze.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADBF8249C2FF00021D0CF /* DrBooze.xcdatamodeld */; };
@@ -14,9 +16,37 @@
 		2D5ADBFE249C2FF10021D0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5ADBFD249C2FF10021D0CF /* Assets.xcassets */; };
 		2D5ADC01249C2FF10021D0CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5ADC00249C2FF10021D0CF /* Preview Assets.xcassets */; };
 		2D5ADC04249C2FF10021D0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5ADC02249C2FF10021D0CF /* LaunchScreen.storyboard */; };
+		2D5ADC15249C30670021D0CF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADC14249C30670021D0CF /* Color.swift */; };
+		2D5ADC19249C30980021D0CF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADC18249C30980021D0CF /* LoginView.swift */; };
+		2D5ADC1C249C30B70021D0CF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADC1B249C30B70021D0CF /* LoginController.swift */; };
+		2D6D760C24C4739E00C71637 /* AlcoholItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6D760B24C4739E00C71637 /* AlcoholItem.swift */; };
+		2DCF211A249C418A00B0B4AE /* LoginViewMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF2119249C418900B0B4AE /* LoginViewMaster.swift */; };
+		2DCF211C249C419300B0B4AE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCF211B249C419300B0B4AE /* RegisterView.swift */; };
+		2DE624AF249D2EC20095B1CD /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624AE249D2EC20095B1CD /* service.swift */; };
+		2DE624B0249D35B60095B1CD /* Pods_DrBooze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4669F055C679AD9B9908F25 /* Pods_DrBooze.framework */; };
+		2DE624B8249D40010095B1CD /* AlcoholType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624B7249D40010095B1CD /* AlcoholType.swift */; };
+		2DE624BA249D405E0095B1CD /* Alcohol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624B9249D405E0095B1CD /* Alcohol.swift */; };
+		2DE624BC249D411D0095B1CD /* DrinkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624BB249D411D0095B1CD /* DrinkCard.swift */; };
+		2DE624BE249D41680095B1CD /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624BD249D41670095B1CD /* Drink.swift */; };
+		2DE624C0249D46C10095B1CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624BF249D46C10095B1CD /* User.swift */; };
+		2DE624C3249D8C9F0095B1CD /* DashboardMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624C2249D8C9F0095B1CD /* DashboardMaster.swift */; };
+		2DE624C5249D8CAF0095B1CD /* DashboardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624C4249D8CAF0095B1CD /* DashboardDetail.swift */; };
+		2DE624C724A0B9DB0095B1CD /* PerMilleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624C624A0B9DB0095B1CD /* PerMilleScreen.swift */; };
+		2DE624CC24A0C05F0095B1CD /* HistoryMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624CB24A0C05F0095B1CD /* HistoryMaster.swift */; };
+		2DE624CF24A0C07D0095B1CD /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624CE24A0C07D0095B1CD /* Master.swift */; };
+		2DE624D224A0C1C60095B1CD /* ProfileMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624D124A0C1C60095B1CD /* ProfileMaster.swift */; };
+		6C6883D61825DC48C99336FC /* LoginStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688B9E8031B2FF844F9240 /* LoginStruct.swift */; };
+		6C68845F0AC3F3C46ED0FF28 /* AlcoholListStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688BBDD94DA932B36D69C3 /* AlcoholListStruct.swift */; };
+		6C6884AE312A593FF4A53F97 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688332D2ECE232097B73B3 /* Enums.swift */; };
+		6C6884B442CDAB63F25E5394 /* shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C68874FA88AA9CC05E5A527 /* shared.swift */; };
+		6C688879ECF5645989EC3076 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C68856986FB2A4233802884 /* String.swift */; };
+		6C688A9CA0445849725B5E9C /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6885F69E0E1550144EBEA4 /* Moya.swift */; };
+		6C688BE93AC8E0A074F9EF87 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688979623E0C314DBEF402 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D42B58924C0CC9D0032AA43 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		2D42B58B24C0CE900032AA43 /* DashboardSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSelection.swift; sourceTree = "<group>"; };
 		2D5ADBF1249C2FF00021D0CF /* DrBooze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrBooze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5ADBF4249C2FF00021D0CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D5ADBF6249C2FF00021D0CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +56,34 @@
 		2D5ADC00249C2FF10021D0CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D5ADC03249C2FF10021D0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D5ADC05249C2FF10021D0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5ADC14249C30670021D0CF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2D5ADC18249C30980021D0CF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2D5ADC1B249C30B70021D0CF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2D6D760B24C4739E00C71637 /* AlcoholItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholItem.swift; sourceTree = "<group>"; };
+		2DCF2119249C418900B0B4AE /* LoginViewMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMaster.swift; sourceTree = "<group>"; };
+		2DCF211B249C419300B0B4AE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2DE624AE249D2EC20095B1CD /* service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
+		2DE624B7249D40010095B1CD /* AlcoholType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlcoholType.swift; sourceTree = "<group>"; };
+		2DE624B9249D405E0095B1CD /* Alcohol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol.swift; sourceTree = "<group>"; };
+		2DE624BB249D411D0095B1CD /* DrinkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCard.swift; sourceTree = "<group>"; };
+		2DE624BD249D41670095B1CD /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		2DE624BF249D46C10095B1CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2DE624C2249D8C9F0095B1CD /* DashboardMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardMaster.swift; sourceTree = "<group>"; };
+		2DE624C4249D8CAF0095B1CD /* DashboardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetail.swift; sourceTree = "<group>"; };
+		2DE624C624A0B9DB0095B1CD /* PerMilleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerMilleScreen.swift; sourceTree = "<group>"; };
+		2DE624CB24A0C05F0095B1CD /* HistoryMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMaster.swift; sourceTree = "<group>"; };
+		2DE624CE24A0C07D0095B1CD /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
+		2DE624D124A0C1C60095B1CD /* ProfileMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMaster.swift; sourceTree = "<group>"; };
+		36353987D397BD045793F283 /* Pods-DrBooze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrBooze.debug.xcconfig"; path = "Target Support Files/Pods-DrBooze/Pods-DrBooze.debug.xcconfig"; sourceTree = "<group>"; };
+		65F5EC57482F4C8612143BAB /* Pods-DrBooze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrBooze.release.xcconfig"; path = "Target Support Files/Pods-DrBooze/Pods-DrBooze.release.xcconfig"; sourceTree = "<group>"; };
+		6C688332D2ECE232097B73B3 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6C68856986FB2A4233802884 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6C6885F69E0E1550144EBEA4 /* Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
+		6C68874FA88AA9CC05E5A527 /* shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shared.swift; sourceTree = "<group>"; };
+		6C688979623E0C314DBEF402 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		6C688B9E8031B2FF844F9240 /* LoginStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginStruct.swift; sourceTree = "<group>"; };
+		6C688BBDD94DA932B36D69C3 /* AlcoholListStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlcoholListStruct.swift; sourceTree = "<group>"; };
+		F4669F055C679AD9B9908F25 /* Pods_DrBooze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrBooze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE624B0249D35B60095B1CD /* Pods_DrBooze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +103,8 @@
 			children = (
 				2D5ADBF3249C2FF00021D0CF /* DrBooze */,
 				2D5ADBF2249C2FF00021D0CF /* Products */,
+				8183FE2C199FA9293BD0AF55 /* Pods */,
+				B83F086029E4662A7B24188C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +119,11 @@
 		2D5ADBF3249C2FF00021D0CF /* DrBooze */ = {
 			isa = PBXGroup;
 			children = (
+				2DE624B3249D3F950095B1CD /* Data */,
+				2DE624AD249D2B9D0095B1CD /* API */,
+				2D5ADC1A249C30AB0021D0CF /* Controller */,
+				2D5ADC16249C306F0021D0CF /* Views */,
+				2D5ADC13249C30450021D0CF /* Extensions */,
 				2D5ADBF4249C2FF00021D0CF /* AppDelegate.swift */,
 				2D5ADBF6249C2FF00021D0CF /* SceneDelegate.swift */,
 				2D5ADBFB249C2FF00021D0CF /* ContentView.swift */,
@@ -78,6 +144,149 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2D5ADC13249C30450021D0CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2D5ADC14249C30670021D0CF /* Color.swift */,
+				6C68856986FB2A4233802884 /* String.swift */,
+				6C6885F69E0E1550144EBEA4 /* Moya.swift */,
+				6C688979623E0C314DBEF402 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2D5ADC16249C306F0021D0CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624D024A0C1910095B1CD /* Profile */,
+				2DE624CD24A0C0740095B1CD /* Master */,
+				2DE624CA24A0C0500095B1CD /* History */,
+				2DE624C1249D8C900095B1CD /* Dashboard */,
+				2D5ADC17249C307E0021D0CF /* LoginViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D5ADC17249C307E0021D0CF /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				2D5ADC18249C30980021D0CF /* LoginView.swift */,
+				2DCF2119249C418900B0B4AE /* LoginViewMaster.swift */,
+				2DCF211B249C419300B0B4AE /* RegisterView.swift */,
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+		2D5ADC1A249C30AB0021D0CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D5ADC1B249C30B70021D0CF /* LoginController.swift */,
+				2D42B58924C0CC9D0032AA43 /* DashboardController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DE624AD249D2B9D0095B1CD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624AE249D2EC20095B1CD /* service.swift */,
+				6C68874FA88AA9CC05E5A527 /* shared.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2DE624B3249D3F950095B1CD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624B5249D3FAC0095B1CD /* Entities */,
+				2DE624B4249D3F9A0095B1CD /* Enums */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2DE624B4249D3F9A0095B1CD /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624B7249D40010095B1CD /* AlcoholType.swift */,
+				6C688332D2ECE232097B73B3 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		2DE624B5249D3FAC0095B1CD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624B9249D405E0095B1CD /* Alcohol.swift */,
+				2DE624BB249D411D0095B1CD /* DrinkCard.swift */,
+				2DE624BD249D41670095B1CD /* Drink.swift */,
+				2DE624BF249D46C10095B1CD /* User.swift */,
+				6C688E63BEAF0C3D17C8BE19 /* HelperStructs */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2DE624C1249D8C900095B1CD /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624C2249D8C9F0095B1CD /* DashboardMaster.swift */,
+				2DE624C4249D8CAF0095B1CD /* DashboardDetail.swift */,
+				2DE624C624A0B9DB0095B1CD /* PerMilleScreen.swift */,
+				2D42B58B24C0CE900032AA43 /* DashboardSelection.swift */,
+				2D6D760B24C4739E00C71637 /* AlcoholItem.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		2DE624CA24A0C0500095B1CD /* History */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624CB24A0C05F0095B1CD /* HistoryMaster.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		2DE624CD24A0C0740095B1CD /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624CE24A0C07D0095B1CD /* Master.swift */,
+			);
+			path = Master;
+			sourceTree = "<group>";
+		};
+		2DE624D024A0C1910095B1CD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2DE624D124A0C1C60095B1CD /* ProfileMaster.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6C688E63BEAF0C3D17C8BE19 /* HelperStructs */ = {
+			isa = PBXGroup;
+			children = (
+				6C688B9E8031B2FF844F9240 /* LoginStruct.swift */,
+				6C688BBDD94DA932B36D69C3 /* AlcoholListStruct.swift */,
+			);
+			path = HelperStructs;
+			sourceTree = "<group>";
+		};
+		8183FE2C199FA9293BD0AF55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36353987D397BD045793F283 /* Pods-DrBooze.debug.xcconfig */,
+				65F5EC57482F4C8612143BAB /* Pods-DrBooze.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B83F086029E4662A7B24188C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4669F055C679AD9B9908F25 /* Pods_DrBooze.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D5ADC08249C2FF10021D0CF /* Build configuration list for PBXNativeTarget "DrBooze" */;
 			buildPhases = (
+				6A27A846B1AFA4222512BECB /* [CP] Check Pods Manifest.lock */,
 				2D5ADBED249C2FF00021D0CF /* Sources */,
 				2D5ADBEE249C2FF00021D0CF /* Frameworks */,
 				2D5ADBEF249C2FF00021D0CF /* Resources */,
+				F2E60AA0116EC41E52D5DFC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,15 +355,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A27A846B1AFA4222512BECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrBooze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E60AA0116EC41E52D5DFC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrBooze/Pods-DrBooze-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrBooze/Pods-DrBooze-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrBooze/Pods-DrBooze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D5ADBED249C2FF00021D0CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE624C3249D8C9F0095B1CD /* DashboardMaster.swift in Sources */,
+				2DCF211C249C419300B0B4AE /* RegisterView.swift in Sources */,
+				2DCF211A249C418A00B0B4AE /* LoginViewMaster.swift in Sources */,
+				2DE624CF24A0C07D0095B1CD /* Master.swift in Sources */,
+				2D42B58A24C0CC9D0032AA43 /* DashboardController.swift in Sources */,
+				2D5ADC19249C30980021D0CF /* LoginView.swift in Sources */,
 				2D5ADBF5249C2FF00021D0CF /* AppDelegate.swift in Sources */,
+				2DE624C0249D46C10095B1CD /* User.swift in Sources */,
+				2DE624B8249D40010095B1CD /* AlcoholType.swift in Sources */,
+				2DE624BC249D411D0095B1CD /* DrinkCard.swift in Sources */,
 				2D5ADBF7249C2FF00021D0CF /* SceneDelegate.swift in Sources */,
+				2DE624C5249D8CAF0095B1CD /* DashboardDetail.swift in Sources */,
 				2D5ADBFC249C2FF00021D0CF /* ContentView.swift in Sources */,
+				2DE624BA249D405E0095B1CD /* Alcohol.swift in Sources */,
+				2D42B58C24C0CE900032AA43 /* DashboardSelection.swift in Sources */,
+				2D5ADC15249C30670021D0CF /* Color.swift in Sources */,
+				2DE624CC24A0C05F0095B1CD /* HistoryMaster.swift in Sources */,
+				2D6D760C24C4739E00C71637 /* AlcoholItem.swift in Sources */,
+				2DE624C724A0B9DB0095B1CD /* PerMilleScreen.swift in Sources */,
 				2D5ADBFA249C2FF00021D0CF /* DrBooze.xcdatamodeld in Sources */,
+				2DE624D224A0C1C60095B1CD /* ProfileMaster.swift in Sources */,
+				2D5ADC1C249C30B70021D0CF /* LoginController.swift in Sources */,
+				2DE624BE249D41680095B1CD /* Drink.swift in Sources */,
+				2DE624AF249D2EC20095B1CD /* service.swift in Sources */,
+				6C688879ECF5645989EC3076 /* String.swift in Sources */,
+				6C688A9CA0445849725B5E9C /* Moya.swift in Sources */,
+				6C688BE93AC8E0A074F9EF87 /* Date.swift in Sources */,
+				6C6884AE312A593FF4A53F97 /* Enums.swift in Sources */,
+				6C6884B442CDAB63F25E5394 /* shared.swift in Sources */,
+				6C6883D61825DC48C99336FC /* LoginStruct.swift in Sources */,
+				6C68845F0AC3F3C46ED0FF28 /* AlcoholListStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -274,6 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -286,12 +568,17 @@
 		};
 		2D5ADC09249C2FF10021D0CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36353987D397BD045793F283 /* Pods-DrBooze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DrBooze/Preview Content\"";
 				DEVELOPMENT_TEAM = BMARK28GQ6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DrBooze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,12 +593,17 @@
 		};
 		2D5ADC0A249C2FF10021D0CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F5EC57482F4C8612143BAB /* Pods-DrBooze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DrBooze/Preview Content\"";
 				DEVELOPMENT_TEAM = BMARK28GQ6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = DrBooze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
