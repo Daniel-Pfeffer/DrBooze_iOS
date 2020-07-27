@@ -35,6 +35,7 @@
 		2DE624CC24A0C05F0095B1CD /* HistoryMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624CB24A0C05F0095B1CD /* HistoryMaster.swift */; };
 		2DE624CF24A0C07D0095B1CD /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624CE24A0C07D0095B1CD /* Master.swift */; };
 		2DE624D224A0C1C60095B1CD /* ProfileMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE624D124A0C1C60095B1CD /* ProfileMaster.swift */; };
+		6C6882E7DEC468B284EB01A4 /* AlcoholCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6884D183A517B42FB236C6 /* AlcoholCalculator.swift */; };
 		6C6883D61825DC48C99336FC /* LoginStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688B9E8031B2FF844F9240 /* LoginStruct.swift */; };
 		6C68845F0AC3F3C46ED0FF28 /* AlcoholListStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688BBDD94DA932B36D69C3 /* AlcoholListStruct.swift */; };
 		6C6884AE312A593FF4A53F97 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C688332D2ECE232097B73B3 /* Enums.swift */; };
@@ -77,6 +78,7 @@
 		36353987D397BD045793F283 /* Pods-DrBooze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrBooze.debug.xcconfig"; path = "Target Support Files/Pods-DrBooze/Pods-DrBooze.debug.xcconfig"; sourceTree = "<group>"; };
 		65F5EC57482F4C8612143BAB /* Pods-DrBooze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrBooze.release.xcconfig"; path = "Target Support Files/Pods-DrBooze/Pods-DrBooze.release.xcconfig"; sourceTree = "<group>"; };
 		6C688332D2ECE232097B73B3 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6C6884D183A517B42FB236C6 /* AlcoholCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlcoholCalculator.swift; sourceTree = "<group>"; };
 		6C68856986FB2A4233802884 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		6C6885F69E0E1550144EBEA4 /* Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
 		6C68874FA88AA9CC05E5A527 /* shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shared.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				2DE624AE249D2EC20095B1CD /* service.swift */,
 				6C68874FA88AA9CC05E5A527 /* shared.swift */,
+				6C6884D183A517B42FB236C6 /* AlcoholCalculator.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				6C6884B442CDAB63F25E5394 /* shared.swift in Sources */,
 				6C6883D61825DC48C99336FC /* LoginStruct.swift in Sources */,
 				6C68845F0AC3F3C46ED0FF28 /* AlcoholListStruct.swift in Sources */,
+				6C6882E7DEC468B284EB01A4 /* AlcoholCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

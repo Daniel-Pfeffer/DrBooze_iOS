@@ -10,6 +10,7 @@ class Shared {
 
     static let instance = Shared()
     var bearer: String = ""
+    var user: User?
 
     private init(){
 

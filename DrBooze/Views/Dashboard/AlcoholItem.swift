@@ -11,20 +11,20 @@ import SwiftUI
 struct AlcoholItem: View {
     let alcohol: Alcohol
     var body: some View {
-        HStack{
+        HStack {
             Image(alcohol.type.rawValue.lowercased()).resizable().frame(width: 35.0, height: 35.0)
             VStack(alignment: .leading, spacing: 1.0) {
                 Text(alcohol.name).lineLimit(1)
-                    
+
                 Text("\(alcohol.percentage, specifier: "%.1f")%")
-                    .foregroundColor(.gray)
-                
+                        .foregroundColor(.gray)
+
             }.multilineTextAlignment(.leading)
             Spacer()
             Text("\(alcohol.amount, specifier: "%.0f")ml")
-                .multilineTextAlignment(.trailing)
+                    .multilineTextAlignment(.trailing)
             Spacer()
-                .frame(width: 10.0)
+                    .frame(width: 10.0)
         }
     }
 }

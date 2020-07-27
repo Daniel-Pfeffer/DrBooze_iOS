@@ -36,6 +36,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
+        print("Bye Scene")
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
@@ -43,6 +44,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
+        UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+        print("Hello Scene")
+        let userDefaults = UserDefaults(suiteName: "DrBooze")
+        let permille = userDefaults?.double(forKey: "permille")
+        let time = userDefaults?.double(forKey: "date")
+        AlcoholCalculator.instance.loadPermille(permille ?? 0, of: time ?? Date().timeIntervalSince1970)
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
     }
@@ -58,6 +65,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
+        let userDefaults = UserDefaults(suiteName: "DrBooze")
+        userDefaults?.set(AlcoholCalculator.instance.savePermille(), forKey: "permille")
+        userDefaults?.set(Date().timeIntervalSince1970, forKey: "date")
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.

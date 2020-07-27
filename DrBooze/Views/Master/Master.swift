@@ -10,26 +10,26 @@ import SwiftUI
 
 struct Master: View {
     var body: some View {
-        TabView{
+        TabView {
             DashboardMaster()
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("Dashboard")
-            }
+                    .tabItem {
+                        Image(systemName: "house.fill")
+                        Text("Dashboard")
+                    }
             HistoryMaster()
-                .tabItem{
-                    Image(systemName: "clock.fill")
-                    Text("History")
-            }
+                    .tabItem {
+                        Image(systemName: "clock.fill")
+                        Text("History")
+                    }
             ProfileMaster()
-                .tabItem{
-                    Image(systemName: "person.fill")
-                    Text("Profile")
-            }
+                    .tabItem {
+                        Image(systemName: "person.fill")
+                        Text("Profile")
+                    }
         }
-    .navigationBarHidden(false)
-    .navigationBarTitle("Dr. Booze")
-    .navigationBarBackButtonHidden(true)
+                .navigationBarHidden(false)
+                .navigationBarTitle("Dr. Booze")
+                .navigationBarBackButtonHidden(true)
     }
 }
 

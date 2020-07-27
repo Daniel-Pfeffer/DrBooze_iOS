@@ -15,11 +15,22 @@ struct Alcohol: Codable, Identifiable, Hashable {
     let percentage: Double
     let amount: Double
     var category: String?
-    let isPersonal: Bool?
+    var isPersonal: Bool?
 
     mutating func checkCategory() {
         if (self.category == nil) {
             self.category = "Regular"
         }
+    }
+
+    mutating func isFavourite() {
+        self.category = "Favourite"
+    }
+
+    func validatePersonal() -> Bool {
+        guard let isPersonal = self.isPersonal, isPersonal else {
+            return false
+        }
+        return true
     }
 }
